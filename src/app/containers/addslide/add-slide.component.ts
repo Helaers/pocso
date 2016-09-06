@@ -18,7 +18,7 @@ export class AddSlideComponent {
     private type:string = '';
     private id:number;
     private modalType:string = '';
-    private modalHeaders:Array<string> = ['Afbeelding importeren', 'Video importeren', 'Audio importeren', 'Hyperlink importeren', 'Bingel oefening importeren']
+    private modalHeaders:Array<string> = ['Afbeelding importeren', 'Video importeren', 'Audio importeren', 'Hyperlink importeren', 'Diddit oefening importeren']
     private modalHeader = ''
 
     private textPreview:boolean = false;
